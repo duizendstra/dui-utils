@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# chmod +x reset_git_history.sh
+# ./reset_git_history.sh <repository_url>
+
 # Check if repository URL is provided
 if [ -z "$1" ]; then
   echo "Usage: $0 <repository_url>"
